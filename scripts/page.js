@@ -31,7 +31,7 @@ global = {
   requests: 0
 };
 
-global.uuid = 1;
+global.uuid = 'spades test uuid';
 
 setStatus = function(status) {
   return $('.status').text(status);

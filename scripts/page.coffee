@@ -21,7 +21,7 @@ background = chrome.extension.getBackgroundPage()
 global = 
     publish: false
     requests: 0
-global.uuid = 1
+global.uuid = 'spades test uuid' # TODO
 
 setStatus = (status) ->
     $('.status').text(status)
